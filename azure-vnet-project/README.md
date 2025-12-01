@@ -38,8 +38,9 @@ After completing the AZ-900 Exam, I deployed a Linux virtual machine in Azure in
      - HTTP (TCP 80) from Any
 
 5. **Connected to the VM via SSH**
-   Powershell
-   ssh samadmin@<public-ip>
+   - Powershell
+   - ssh samadmin@<public-ip>
+   - then bash
 
 6. **Installed and started NGINX**
    - sudo apt update
