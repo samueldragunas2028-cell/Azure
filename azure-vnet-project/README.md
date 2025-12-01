@@ -51,3 +51,25 @@ After completing the AZ-900 Exam, I deployed a Linux virtual machine in Azure in
    - Opened http://IP-Adress in a browser
    - Confirmed the “Welcome to nginx!” page loaded
 
+## What I Learned
+
+- **How core Azure resources work together**  
+  Connected a Resource Group, Virtual Network, subnet, public IP, and Linux virtual machine into a functional cloud environment.
+
+- **Cloud networking fundamentals**  
+  Understood how a VM is placed inside a subnet within a VNet, and how inbound traffic flows through the public IP and NSG before reaching the VM.
+
+- **Network Security Groups (NSGs)**  
+  Configured NSGs to safely allow required traffic (SSH on port 22 and HTTP on port 80) while keeping everything else blocked by default.
+
+- **Linux administration via SSH**  
+  Used SSH to access the VM, navigate Linux, install packages, manage services, and run privileged commands.
+
+- **Installing and managing NGINX**  
+  Installed NGINX using `apt`, started the service, enabled it to run on boot, and verified the web server by accessing the VM’s public IP in a browser.
+
+- **Troubleshooting real cloud issues**  
+  Handled region/size availability errors, authentication problems, and terminal hangs by recreating resources and adjusting configurations.
+
+- **Cloud architecture reasoning**  
+  Learned about regional VM constraints (e.g., `Standard_B1s` availability), how public IPs map to VMs, and how security and networking layers fit together in Azure.
